@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Truculenta', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.product{
+    font-weight: 550;
+    margin: 20px 20px 20px 20px;
+    font-size: small;
+}
+ul li{
+    list-style: none;
+    position: relative;
+    left: 8px;
+    top: 20px;
+    display: inline;
+    padding: 85px;
+}
+#first{
+    height: 48.5px;
+    width: 50px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+#x{
+    height: 40px;
+    position: relative;
+    top: -29px;
+    left: -40px;
+}
+h1{
+    font-size: small;
+    position: relative;
+    top: -50px;
+    left: 140px;
+}
+#col{
+    font-size: x-small;
+    opacity: 0.3;
+    position: relative;
+    left: 138px;
+    top: -50px;
+}
+#quan{
+    font-size: x-small;
+    opacity: 0.3;
+    position: relative;
+    left: 74px;
+    top: -32px;
+}
+#second{
+    width: 50px;
+    border: 1px solid lightgray;
+    height: 48.5px;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+h2{
+    font-size: small;
+    position: relative;
+    top: -50px;
+    left: 140px;
+}
+.first{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+    left: 332px;
+}
+.second{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 332px;
+}
+.third{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 270px;
+    left: 332px;
+}
+.fourth{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    left: 332px;
+}
+.fifth{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 440px;
+    left: 332px;
+}
+.sixth{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 523px;
+    left: 332px;
+}
+#sign{
+    position: relative;
+    left: 42%;
+    top: -70px
+}
+.won1{
+    margin: 10px;
+    background-color: lightgray;
+    padding: 9px;
+    border-radius: 2px;
+    font-size: small;
+}
+#sin{
+    position: absolute;
+    left: 42.2%;
+    top: 30%;
+}
+.won2{  
+    background-color: lightgray;
+    padding: 9px;
+    font-size: small;
+    border-radius: 2px;
+    margin: 10px;
+}
+#sig{
+    position: absolute;
+    left: 42.2%;
+    top: 44%;
+}
+.won3{
+    background-color: lightgray;
+    padding: 9px;
+    font-size: small;
+    border-radius: 2px;
+    margin: 10px;
+}
+#nis{
+    position: absolute;
+    left: 42.3%;
+    top: 58%;
+}
+.won4{
+    background-color: lightgray;
+    padding: 9px;
+    font-size: small;
+    border-radius: 2px;
+    margin: 10px;
+}  
+#gis{
+    position: absolute;
+    left: 42.3%;
+    top: 72.4%;
+}
+.won5{
+    background-color: lightgray;
+    padding: 9px;
+    font-size: small;
+    border-radius: 2px;
+    margin: 10px;
+}
+#ns{
+    position: absolute;
+    left: 42.3%;
+    top: 86%;
+}
+.won6{
+    background-color: lightgray;
+    padding: 9px;
+    font-size: small;
+    border-radius: 2px;
+    margin: 10px;   
+}
+#two{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+    left: 760px;
+}
+#three{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 760px;
+}
+#one{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 270px;
+    left: 760px;
+}
+#four{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    left: 760px;
+}
+#twen{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 440px;
+    left: 760px;
+}
+#twent{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 520px;
+    left: 760px;
+}
+h3{
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 80%;
+    margin-top: -42.5%;
+}
+section{
+    width: 27%;
+    height: 200px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 895px;
+    top: 10px;
+}
+h4{
+    font-size: small;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+nav{
+    display: inline;
+    padding-left: 159px;
+}
+h5{
+    font-size: small;
+    position: absolute;
+    top: 60px;
+    left: 24px;
+}
+#nav2{
+    display: inline;
+    padding-left: 178px;
+}
+h6{
+    font-size: x-small;
+    opacity: 0.7;            
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+input[type='checkbox']{
+    position: absolute;
+    top: 100px;
+    left: 28px;
+    outline: none;
+}
+a{
+    font-size: x-small;
+    background-color: crimson;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 135px;
+    left: 40px;
+    padding: 14px;
+    width: 230px;
+    text-align: center;
+    border-radius: 3px;
+}
+#shipping{
+    position: relative;
+    left: 980px;
+    top: 25px;
+}
+article{
+    width: 27%;
+    height: 200px;
+    background-color: whitesmoke;
+    position: relative;
+    left: -80px;
+    top: 55px;
+}
+.bang{
+    font-weight: bold;
+    font-size: small;
+    padding-top: 30px;
+    padding-left: 22px;
+}
+.lorem{
+    font-weight: bold;
+    font-size: small;
+    padding-top: 25px;
+    padding-left: 22px;
+}
+.code{
+    font-weight: bold;
+    font-size: small;
+    padding-top: 27px;
+    padding-left: 22px;
+}
+button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    border-radius: 2px;
+    font-size: x-small;
+    position: absolute;
+    top: 145px;
+    left: 22px;
+    width: 157px;
+}

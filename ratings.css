@@ -1,0 +1,205 @@
+/* .chair{
+            color: rgb(134, 134, 134);
+            position: relative;
+            left: 18.5%;
+            font-size: 30px;
+        } */
+        /* .home{
+            color: red;
+        } */
+        .content{
+            width: 1210px;
+            height: 250px;
+            background-color: gainsboro;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        .sf{
+            position: relative;
+            left: 75%;
+            height: 230px;
+            top: -120px;
+            border-radius: 100%;
+        }
+        span{
+            color: red;
+            position: relative;
+            top: 6%;
+            left: 5%;
+            font-size: small;
+        }
+        section{
+        position: relative;
+        top: 10%;
+        left: 5%;
+        font-size: larger;
+        font-family:sans-serif;
+        }
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        *{
+            font-family: sans-serif;
+        }
+        p{
+            font-size: medium;
+            position: relative;
+            left: 5%;
+            top: 12%;
+        }
+        .sp{
+            position: relative;
+            left: 0.5%;
+            font-weight: bold;
+            font-size: medium;
+        }
+        .now{
+            position: relative;
+            top: 18%;
+        }
+        .arrow{
+            font-weight: lighter;
+            position: relative;
+            left: 13%;
+            top: -80%;
+            width: 20px;
+        }
+        .an{
+            color: red;
+        }
+        #sn{
+            color: black;
+        }
+        h4{
+            position: relative;
+            left: 27%;
+        }
+        em{
+            display: inline;
+            font-weight: lighter;
+            font-style: normal;
+            font-size: medium;
+        }
+        h3{
+            font-size: x-large;
+            position: relative;
+            left: 1.5%;
+            top: -15px;
+            border-left: 2px solid red;
+            width: 20%;
+            padding: 5px;
+        }
+        .ul li{
+            list-style-type: none;
+            font-family: sans-serif;
+            font-size: medium;
+            word-spacing: 2px;
+            display: inline;
+            opacity: 0.5;
+            padding: 13px;
+            position: relative;
+            left: 68.8%;
+            top: -65px;
+        }
+        .trend{
+            text-decoration-line: underline;
+            text-decoration-color: red;
+            padding: 3px;
+            position: absolute;
+            top: 295px;
+            left: 799px;
+            opacity: 0.7;
+        }
+        .modern{
+            position: absolute;
+            left: 75%;
+            top: 340px;
+            width: 23%;
+            height: 210px;
+        }
+        .lamp{
+            height: 210px;
+            position: absolute;
+            left: 47%;
+            padding: 30px;
+            width: 23%;
+            top: 310px;
+        }
+        .sofa{
+            height: 210px;
+            position: absolute;
+            left: 24%;
+            padding: 17px;
+            top: 54.6%;
+            width: 22%;
+        }
+        .tbl{
+            width: 199px;
+            height: 151px;
+            padding: 29px;
+            position: absolute;
+            left: 3%;
+            top: 57.5%;
+            background-color: #eff1ed;
+            opacity: 0.7;
+        }
+        .hrt{
+            position: relative;
+            left: 20.5%;
+            top: -50px;
+            background-color: #fff;
+            padding: 3px;
+        }
+        .hrt2{
+            position: relative;
+            left: 43%;
+            top: -50px;
+            background-color: #fff;
+            padding: 3px;
+        }
+        .hrt3{
+            position: relative;
+            left: 66%;
+            top: -50px;
+            background-color: #fff;
+            padding: 3px;
+        }
+        .hrt4{
+            position: relative;
+            left: 90%;
+            top: -50px;
+            background-color: #fff;
+            padding: 3px;
+        }
+        .tag{
+            position: absolute;
+            left: 72%;
+            top: 23%;
+            height: 29.9%;
+            border-radius: 100%;
+        }
+        .ONE{
+            height: 60px;
+            position: absolute;
+            left: 74%;
+            top: 90%;
+        }
+        .TWO{
+            position: absolute;
+            left: 48%;
+            top: 90%;
+            height: 60px;
+        }
+        .THREE{
+            position: absolute;
+            left: 24%;
+            top: 90%;
+            height: 60px;
+        }
+        .FOUR{
+            position: absolute;
+            top: 90%;
+            left: 2%;
+            height: 60px;
+        }

@@ -1,0 +1,776 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Hero_Section_One {
+    width: 100%;
+    height: 80%;
+    /* background-color: deepskyblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SideBar {
+    width: 18%;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar_header {
+    width: 100%;
+    height: 8%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebarNavs_Info {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(254, 254, 254);   
+    display: flex;
+    flex-direction: column;
+}
+
+.BurgerMenu {
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+
+.sideBarText_Icon {
+    width: 70%;
+    height: 90%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ChairOne {
+    width: 22%;
+}
+
+.BloxicText {
+    font-weight: 570;
+    font-size: 22px;
+}
+
+.sidebar_Nav_Info-One {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+}
+.selCat {
+    font-size: 12px;
+    font-weight: 580;
+}
+
+.navBurgerOne {
+    width: 20%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Two {
+    width: 100%;
+    height: 10%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.court {
+    font-size: 12px;
+}
+.ChairTwo {
+    width: 60%;
+}
+
+.navBurgerTwo {
+    width: 20%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Three {
+    width: 100%;
+    height: 10%;
+    /* background-color: sienna; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+.ChairThree {
+    width: 60%;
+}
+.sideBar_Info_Info_One {
+    width: 70%;
+    height: 90%;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+}
+
+.sideBar_Info_Info_Select {
+    width: 15%;
+    height: 90%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdownOne {
+    width: 40%;
+}
+
+.navBurgerThree {
+    width: 30%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Four {
+    width: 100%;
+    height: 10%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.court {
+    font-size: 12px;
+}
+
+.navBurgerFour {
+    width: 20%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Five {
+    width: 100%;
+    height: 10%;
+    /* background-color: sienna; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.sideBar_Info_Info_Two {
+    width: 70%;
+    height: 90%;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+}
+
+.sideBar_Info_Info_Select {
+    width: 15%;
+    height: 90%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBurgerFive {
+    width: 30%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Six {
+    width: 100%;
+    height: 10%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.court {
+    font-size: 12px;
+}
+
+.navBurgerSix {
+    width: 20%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Seven {
+    width: 100%;
+    height: 10%;
+    /* background-color: sienna; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.sideBar_Info_Info_Three {
+    width: 70%;
+    height: 90%;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+}
+
+.sideBar_Info_Info_Select {
+    width: 15%;
+    height: 90%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBurgerSeven {
+    width: 30%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Eight {
+    width: 100%;
+    height: 10%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.court {
+    font-size: 12px;
+}
+
+.navBurgerEight {
+    width: 20%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Nine {
+    width: 100%;
+    height: 10%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.court {
+    font-size: 12px;
+}
+
+.navBurgerNine {
+    width: 20%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sidebar_Nav_Info-Ten {
+    width: 100%;
+    height: 10%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+}
+
+.court {
+    font-size: 12px;
+}
+
+.navBurgerTen {
+    width: 20%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.SideBar_Two {
+    width: 78%;
+    height: 100%;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SideBar_Two_Header {
+    width: 100%;
+    height: 10%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SideBar_Two_Header_Search-Select {
+    width: 80%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SideBar_Two_Header_Icons {
+    width: 15%;
+    height: 90%;
+    /* background-color: firebrick; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.Select_Select {
+    outline: none;
+    width: 28%;
+    height: 90%;
+    border: 1px solid gainsboro;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.Search_Bar_Search {
+    width: 70%;
+    height: 90%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input_Search_Bar {
+    outline: none;
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+    font-weight: 570;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(176, 176, 176);
+}
+
+.Search_Box_Search_Icon {
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    width: 17%;
+}
+
+.Navigations_Bar_Line {
+    width: 100%;
+    height: 8%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.Navigations_Linkz {
+    width: 45%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.Navigation_Social-Media_Language {
+    width: 25%;
+    height: 90%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Home_Navigation {
+    width: 13%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home_Link {
+    color: firebrick;
+    font-weight: 570;
+    font-size: 17px;
+}
+
+.Shop_Navigation {
+    width: 11%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Shop_Link {
+    font-weight: 570;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.708);
+}
+
+.About_Link {
+    font-weight: 570;
+    color: rgba(0, 0, 0, 0.708);
+}
+
+.Blog_Link {
+    font-weight: 570;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.708);
+}
+
+.Contact_Link {
+    font-weight: 570;
+    color: rgba(0, 0, 0, 0.708);
+}
+
+.Blog_Navigation {
+    width: 11%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Social_Media_Handles {
+    width: 45%;
+    height: 90%;
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tweet {
+    width: 20%;
+}
+.wrld {
+    width: 20%;
+}
+.usa {
+    width: 20%;
+}
+.dropdown {
+    width: 20%;
+}
+
+.Language_Mode {
+    width: 45%;
+    height: 90%;
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Language_Type {
+    color: rgba(0, 0, 0, 0.708);
+}
+
+.Body_Hero_Section_Content {
+    width: 100%;
+    height: 80%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Body_Hero_Section_Content_Texts {
+    width: 35%;
+    height: 60%;
+    /* background-color: thistle; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Furniture_Organic{
+    width: 100%;
+    height: 50%;
+    /* background-color: sienna; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Organic_Food {
+    width: 45%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: 590;
+}
+
+.Furniture_Collection {
+    font-size: 25px;
+    font-weight: 580;
+}
+
+.To-Do {
+    font-weight: 530;
+}
+
+.Collection_Fee {
+    width: 100%;
+    height: 35%;
+    /* background-color: sienna; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.Start_Fee {
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.Fee {
+    color: firebrick;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.Check_Collection {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.Body_Hero_Image {
+    width: 58%;
+    height: 95%;
+    /* background-color: thistle; */
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bed {
+    width: 100%;
+}
+
+
+.Hero_Section_Two {
+    width: 100%;
+    height: 17%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Free_Shipping {
+    width: 25%;
+    height: 90%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+.Free_Shipping_Img {
+    width: 30%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Free_Shipping_Img_Bus {
+    width: 40%;
+}
+
+.Free_Shipping_Texts {
+    width: 67%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Free_Shipping_One {
+    font-weight: 550;
+    font-size: 18px;
+    width: 100%;
+}
+
+.Free_Shipping_Two {
+    font-size: 15px;
+    width: 100%;
+
+}
+
+.Payment_Secure {
+    width: 25%;
+    height: 90%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+.Payment_Secure_Img {
+    width: 30%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Payment_Secure_Texts {
+    width: 67%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Support {
+    width: 25%;
+    height: 90%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+.Support_Img {
+    width: 30%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Support_Texts {
+    width: 67%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Money_Back {
+    width: 25%;
+    height: 90%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+
+.Money_Back_Img {
+    width: 30%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Money_Back_Texts {
+    width: 67%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

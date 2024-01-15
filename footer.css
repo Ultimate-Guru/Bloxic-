@@ -1,0 +1,153 @@
+.images{
+    width: 100%;
+    display: flex;
+}
+.liv6{
+    width: 17%;
+}
+.liv3{
+    width: 17%;
+}
+.liv5{
+    width: 17%;
+}
+.living{
+    width: 17%;
+}
+.liv2{
+    width: 16%;
+}
+.liv4{
+    width: 16%;
+}
+.heading{
+    margin-left: 9%;
+    margin-top: 6%;
+}
+.black{
+    height: 40px;
+}
+h2{
+    font-family: sans-serif;
+    position: absolute;
+    top: 44%;
+    left: 13%;
+    font-size: medium;
+}
+h3{
+    font-family: sans-serif;
+    position: absolute;
+    top: 43%;
+    left: 38.5%;
+    font-size: medium;
+}
+h4{
+    font-family: sans-serif;
+    position: absolute;
+    left: 58%;
+    top: 42%;
+    font-size: medium;
+}
+h5{
+    font-family: sans-serif;
+    position: absolute;
+    left: 75%;
+    top: 41%;
+    font-size: medium;
+}
+.content{
+    margin-left: 9%;
+}
+.wash{
+    font-size: small;
+}
+.lillian{
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: small;
+}
+.number{
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: small;
+}
+.line2{
+    margin-left: 38.5%;
+    margin-top: -9%;
+    font-size: small;
+}
+.links{
+    margin-left: 58.5%;
+    margin-top: -11%;
+    font-size: small;
+}
+.service{
+    margin-left: 76%;
+    margin-top: -11%;
+    font-size: small;
+}
+hr{
+    width: 90%;
+    position: relative;
+    left: -5%;
+}
+.footer{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.copy{
+    color: tomato;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.theme{
+    font-family: sans-serif;
+    margin-top: -2.8%;
+    margin-left: 4.5%;
+    font-size: small;
+}
+.rights{
+    font-family: sans-serif;
+    margin-top: -2.5%;
+    margin-left: 15%;
+    font-size: small;
+}
+.cards{
+    display: flex;
+    height: 18px;
+    margin-top: -2.5%;
+    margin-left: 79.3%;
+    padding: 3px;
+}
+.envelope{
+    border: 1px solid crimson;
+    width: 5%;
+    border-radius: 10px;
+    height: 20px;
+    margin-top: -2%;
+    margin-left: 49%;
+}
+#lope{
+    height: 14px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+#phone{
+    height: 20px;
+    position: absolute;
+    top: 65.5%;
+    left: 11%;
+}
+#add{
+    height: 20px;
+    position: absolute;
+    top: 59%;
+    left: 11%;
+}
+.anchor{
+    font-size: 12px;
+    margin-top: -19px;
+    margin-left: 35px;
+}
+/* span{
+    margin-top: 12px;
+} */
